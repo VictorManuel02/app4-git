@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Información Especialidad Técnico en Programación</title>
+<title>Dìa internacional de la madre Tierra</title>
 <!--grupo CSS-->
 <link rel="stylesheet" href="css/themes/tema.proyecto.min.css"/>
 <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
@@ -17,56 +17,65 @@
 <script src="phonegap.js"></script><!--necesario */ -->
 
 <!--Menu Lateral-->
+<script src="js/jsplug.js"></script>
 <link rel="stylesheet" href="css/sldr.css">
 <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
-<body>
+<body onLoad="MM_preloadImages('imagenes/v15.jpg','imagenes/v13.jpg')">
 <div data-role="page" id="Principal" data-theme="a">
 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
-<h1> Día internacional de la madre Tierra 22 de abril </h1>
-</div>
+<h1> Día internacional de la madre Tierra</h1>
 <div class="container">
-<div id="sidebar">
-<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
-<li class="ui-first-child ui-last-child">
-<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-<h2> ¿Por qué se celebra? </h2>
-</a>
-</li>
-<li class="ui-first-child ui-last-child">
-<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-<h2> Historia del Día </h2>
-</a>
-</li>
-<li class="ui-first-child ui-last-child">
-<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-<h2> La Tierra que habitamos </h2>
-</a>
-</li>
-<li class="ui-first-child ui-last-child">
-<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-<h2> Dialogo sobre armonía con la naturaleza </h2>
-</a>
-</li>
-<li class="ui-first-child ui-last-child">
-<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-<h2> Hacia una tierra sostenible </h2>
-</a>
-</li>
-</ul>
+  <div id="sidebar">
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">¿porque se celebra?</a></h2>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Historia del dia</a></h2>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">La tierra que habitamos</a></h2>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Dialogo sobre armonia de la naturaleza</a></h2>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <h2><a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Hacia una tierra sostenible</a></h2>
+      </li>
+    </ul>
+  </div>
+  <div class="main-content">
+    <div class="swipe-area"></div>
+    <a href="#" data-toggle=".container" id="sidebar-toggle"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a> </div>
 </div>
-
-<div class="main-content">
-<div class="swipe-area"></div>
-<a href="#" data-toggle=".container" id="sidebar-toggle"> 
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-</a>
-</div>
+<h1>a 22 de abril </h1>
 </div>
 <center>
-<br>
+  <br>
 <div class="slider">
 <ul>
 <li><img src="imagenes/1_tierra.jpg" width="60%" height="70%" alt="sldr"></li>
@@ -94,30 +103,20 @@
 <h2>Docente: </h2>
 <p> Lic. José Antonio Gómez Hernández </p>
 </div> 
-</div>
-
-<div data-role="main" class="ui-content">
 <div data-role="collapsible" data-content-theme="false">
-<div data-role="main" class="ui-content" align="center">
-  <div style="width:30%;">
-<ul data-role="controlgroup" data-type="vertical" data-theme="a">
-<li class="ui-first-child ui-last-child">
-<a href="https://damcbtis16.milaulas.com/" target="_self" data-role="button">
-<h4> Ver más </h4>
-</a>
-</li>
-</ul>
+<h1> Día internacional de la madre tierra </h1>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/v15.jpg',1)"><img src="imagenes/v14.jpg" width="60%" height="70%" id="Image15"></a>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/v13.jpg',1)"><img src="imagenes/v10.jpg" width="60%" height="70%" id="Image16"></a>
+<p></p>
 </div>
 </div>
-</div>
-</div>
-</center>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
 <div>
 <h4>Día de la madre Tierra </h4>
 <h4>Victor Manuel Pliego León </h4><img src="res/android/mdpi.png" width="46" height="46" >
 </div>
 </div>
+</center>
 </div>
 
 <!--Página 1-->
